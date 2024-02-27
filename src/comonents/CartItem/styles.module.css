@@ -1,0 +1,148 @@
+.main {
+  width: 850px;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  margin-top: 10px;
+}
+
+.deletedProducts {
+  display: flex;
+  gap: 300px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.titleText {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+/* .allElements {
+  display: flex;
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  padding-left: 50px;
+} */
+
+/* .main {
+  margin: 0 auto;
+} */
+
+.counrText {
+  margin-top: 63px;
+  margin-left: 10px;
+}
+
+/* .prise_sale {
+  padding-top: 30px;
+} */
+
+.btnAll {
+  display: flex;
+}
+
+.btnPlus {
+  display: flex;
+  width: 50px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-left: 50px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.btnMinus {
+  display: flex;
+  width: 50px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.elementsCounter {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 80px;
+  gap: 15px;
+}
+
+/* .elementsCounter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5%;
+  padding: 20px;
+  width: 300px;
+} */
+
+@media (max-width: 700px) {
+  .elementsCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    padding: 20px;
+  }
+  .allElements {
+    padding-top: 30px;
+    justify-content: center;
+    margin-left: 46vw;
+    margin-top: 40px;
+  }
+}
+
+.imgList {
+  width: 150px;
+  height: 100%;
+  border-radius: 12px 0 0 12px;
+}
+
+/* .deletedProducts {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.product_prise {
+  width: 300px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 55px;
+  font-size: 20px;
+}
+
+.prise_sale_none {
+  display: none;
+}
+
+.prise_sale {
+  color: #282828;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  margin-top: 55px;
+}
+
+.prise_default {
+  color: #8b8b8b;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-decoration: line-through;
+  margin-top: 60px;
+}

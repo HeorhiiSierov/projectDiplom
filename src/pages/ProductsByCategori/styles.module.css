@@ -1,0 +1,83 @@
+.elementsForms {
+  color: #282828;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.forms {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.btns {
+  display: flex;
+  padding-left: 40px;
+}
+
+.btnMain {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: #ddd;
+  transition: color 0.2s ease-in-out;
+}
+
+.btnMain:hover {
+  color: #282828;
+  transition: 0.2s;
+}
+
+.btnAllProducts {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: #ddd;
+  transition: color 0.2s ease-in-out;
+}
+
+.btnAllSales {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: #282828;
+}
+
+.btnAllProducts:hover {
+  color: #282828;
+  transition: 0.2s;
+}
+
+.line {
+  width: 2vw;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 15px;
+}
+
+.link {
+  text-decoration: none;
+}

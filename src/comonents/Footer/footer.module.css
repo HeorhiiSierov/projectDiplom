@@ -1,0 +1,164 @@
+.footer {
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .social_elements {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer_adress {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .text_contact {
+    text-align: center;
+  }
+}
+
+.text_contact {
+  color: #282828;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 40px;
+  padding-top: 40px;
+  margin-top: 130px;
+}
+
+.social_elements {
+  display: flex;
+  gap: 32px;
+  margin: 40px;
+}
+
+.number_phone {
+  border-radius: 12px;
+  background: #f1f3f4;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  width: 705px;
+}
+
+.p_number {
+  color: #282828;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  text-decoration: none;
+}
+
+.sotial_img {
+  display: flex;
+  width: 700px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #f1f3f4;
+}
+
+.p_phone {
+  color: #8b8b8b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.p_social {
+  color: #8b8b8b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.img_footer {
+  display: flex;
+  gap: 16px;
+}
+
+.footer_adress {
+  display: flex;
+  gap: 32px;
+  margin: 40px;
+}
+
+.adress {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+  align-self: stretch;
+  width: 50vw;
+  border-radius: 12px;
+  background: #f1f3f4;
+}
+
+.working {
+  border-radius: 12px;
+  background: #f1f3f4;
+  display: flex;
+  width: 700px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.p_working {
+  color: #8b8b8b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.p_adress {
+  color: #8b8b8b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.p_adress_berlin {
+  color: #282828;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  min-width: 200px;
+  text-decoration: none;
+}
+
+.p_hours {
+  color: #282828;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.map {
+  padding: 40px;
+  width: 100%;
+  margin-top: -30px;
+  border: none;
+  height: 300px;
+  border-radius: 60px;
+}

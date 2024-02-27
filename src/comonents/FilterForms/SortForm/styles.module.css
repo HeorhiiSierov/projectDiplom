@@ -1,0 +1,30 @@
+.sortForm {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 90px;
+}
+
+.select_sort {
+  padding: 9px 8px 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+}
+
+.sorted {
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 3px;
+}
+
+@media (max-width: 600px) {
+  .sorted {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+}

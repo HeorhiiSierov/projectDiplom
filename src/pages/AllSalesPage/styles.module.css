@@ -1,0 +1,72 @@
+.formsElements {
+  padding-top: 110px;
+}
+
+.forms {
+  display: flex;
+  padding-top: 40px;
+  gap: 10vw;
+  padding-left: 55px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .forms {
+    padding-left: 60px;
+  }
+}
+
+h1 {
+  color: #282828;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 40px;
+}
+
+.btns {
+  display: flex;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.btnMain {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #ddd;
+  transition: color 0.2s ease-in-out;
+}
+
+.btnMain:hover {
+  color: #282828;
+  transition: color 0.2s;
+}
+
+.line {
+  width: 2vw;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 15px;
+}
+
+.btnAllProducts {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.link {
+  text-decoration: none;
+}

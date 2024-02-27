@@ -1,0 +1,222 @@
+.btnLine {
+  display: flex;
+  padding-top: 140px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+  gap: 150px;
+}
+
+.images img {
+  margin-left: 40px;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.line {
+  width: 1vw;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.btnMain {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.btnMain:hover {
+  color: #282828;
+  transition: color 0.2s;
+}
+
+.btnCategories {
+  height: 30px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #ddd;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.btnCategories:hover {
+  color: #282828;
+  transition: color 0.2s;
+}
+
+.btnDiscount {
+  width: 120px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  color: #ddd;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.btnDiscount:hover {
+  color: #282828;
+  transition: color 0.2s;
+}
+
+.btnProducts {
+  font-size: 12px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: white;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: #282828;
+}
+
+.txt_title {
+  overflow: hidden;
+  color: #282828;
+  text-overflow: ellipsis;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.txt_allPrice {
+  display: flex;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.quantity_addToCart {
+  display: flex;
+  gap: 50px;
+  align-items: end;
+}
+
+.quantity {
+  width: 110px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.btn_minus {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.btn_plus {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.prise_sale {
+  color: #282828;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.prise_default {
+  color: #8b8b8b;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+
+.btn_addToCart {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: #339333;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn_addToCart:hover {
+  background-color: #282828;
+  transition: 0.2s;
+}
+
+.txt_description {
+  width: 70%;
+  margin-top: 10px;
+  overflow: hidden;
+  color: #282828;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.name_description {
+  margin-top: 20px;
+}
+
+.d_price {
+  width: 58px;
+  height: 34px;
+  position: absolute;
+  border: none;
+  border-radius: 12px;
+  background-color: #393;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 150px;
+}

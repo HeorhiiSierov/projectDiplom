@@ -1,0 +1,84 @@
+.img {
+  background-image: url(../../assest/img/img_back.svg);
+  transform: scaleX(-1);
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  padding-top: 100px;
+}
+
+.text_h1 {
+  transform: scaleX(-1);
+}
+
+.h1 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 40px;
+}
+
+.text_h1 h1 {
+  font-size: 96px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.btn {
+  display: flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #393;
+  border: none;
+  color: white;
+  margin-top: 50px;
+  margin-left: 35px;
+  font-size: 20px;
+  transition: background-color 0.2s, color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: white;
+  color: #339933;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.textCategories {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (max-width: 950px) {
+  .text_h1 h1 {
+    font-size: 66px;
+    margin-top: -70px;
+    font-size: 60px;
+  }
+
+  .text_h1 {
+    margin-top: -40px;
+    padding-right: 59px;
+    padding-left: 105px;
+  }
+
+  @media (max-width: 600px) {
+    .text_h1 h1 {
+      font-size: 36px;
+    }
+    .btn {
+      margin-left: 35px;
+    }
+  }
+}

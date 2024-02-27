@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  padding: 40px 40px;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.paragraph {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #282828;
+  transition: color 0.3s ease-in-out;
+}
+
+.paragraph:hover {
+  color: #339933;
+  transition: 0.3s;
+}
+
+.count {
+  width: 30px;
+  height: 30px;
+  background-color: #339933;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+  padding-top: 3px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+  .paragraph {
+    display: flex;
+    gap: 11px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .count {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-top: 29px;
+  }
+}
+
+.countNone {
+  display: none;
+}

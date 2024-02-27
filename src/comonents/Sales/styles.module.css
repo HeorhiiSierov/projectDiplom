@@ -1,0 +1,138 @@
+.sale {
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #282828;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.allElements {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.imgList {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px 12px 0 0;
+}
+
+.product_prise {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  margin-left: 20px;
+}
+
+.prise_sale_none {
+  display: none;
+}
+
+.prise_sale {
+  color: #282828;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.prise_default {
+  color: #b8b7b7;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-decoration: line-through;
+  padding-top: 15px;
+}
+
+.addProducts {
+  display: none;
+}
+
+.imgList:hover .addProducts {
+  display: block;
+  cursor: pointer;
+  width: 280px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: -70px;
+  position: absolute;
+  border: none;
+  border-radius: 12px;
+  margin-left: 10px;
+  background-color: #393;
+  color: white;
+  font-size: 20px;
+}
+
+.textTitle {
+  padding-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.procent {
+  width: 58px;
+  height: 34px;
+  position: absolute;
+  border: none;
+  border-radius: 12px;
+  background-color: #393;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 220px;
+  margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 15px;
+}
+
+.btn_categori {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-right: 40px;
+  background: white;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  transition: color 0.2s ease-in-out;
+}
+
+.btn_categori:hover {
+  color: #282828;
+  transition: color 0.2s;
+}
+
+.border {
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.border:hover {
+  box-shadow: 0 0 30px rgb(44, 49, 44);
+  transition: 0.4s;
+}

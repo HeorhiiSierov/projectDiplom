@@ -1,0 +1,33 @@
+.checkBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 90px;
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.check {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  gap: 10px;
+  border-radius: 0.4px solid red;
+  border: 1px solid #ddd;
+}
+
+.text {
+  color: #282828;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .text {
+    width: 110px;
+    font-size: 15px;
+    margin-left: -10px;
+  }
+}

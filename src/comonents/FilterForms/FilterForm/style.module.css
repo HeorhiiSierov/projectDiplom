@@ -1,0 +1,39 @@
+.inputs {
+  display: flex;
+  gap: 10px;
+  margin-left: -10px;
+  /* margin-top: -15px; */
+}
+
+.inputForm {
+  display: flex;
+  padding-bottom: 90px;
+  gap: 5px;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  width: 112px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.priceText {
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 2px;
+}
+
+@media (max-width: 600px) {
+  .priceText {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+}
